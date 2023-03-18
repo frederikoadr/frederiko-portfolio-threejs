@@ -21,7 +21,7 @@ const Avatars = ({ isMobile }) => {
       <primitive
         object={avatar.scene}
         scale={isMobile ? 2.5 : 2.5}
-        position={isMobile ? [0, -4.4, 0] : [0, -4.2, 0]}
+        position={isMobile ? [0, -4.4, 0] : [0, -4.0, 0]}
         // rotation={[-0.01, -0.2, -0.1]}
       />
     </mesh>
@@ -57,7 +57,7 @@ const AvatarsCanvas = () => {
       frameloop='demand'
       shadows
       dpr={[1, 2]}
-      camera={{ position: [20, 3, 5], fov: 10 }}
+      camera={{ position: [20, 3, 5], fov: 12 }}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
