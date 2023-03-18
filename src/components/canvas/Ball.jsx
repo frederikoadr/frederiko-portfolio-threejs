@@ -3,7 +3,6 @@ import { Canvas } from '@react-three/fiber'
 import { Decal, Float, OrbitControls, Preload, useTexture } from '@react-three/drei'
 
 import CanvasLoader from '../Loader'
-import { CircleGeometry, IcosahedronGeometry } from 'three'
 
 const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl])
