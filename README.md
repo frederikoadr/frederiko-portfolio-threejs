@@ -12,5 +12,3 @@ Frederiko's web portfolio using ThreeJS to display interactive 3D objects.
 Powered with ThreeJS, React, Tailwind CSS and Vite.
 
 The website able to display custom 3D object, environment 3D object, and primitive 3D object on top of React Vite app.
-
-Thanks for the tutorial by JSMastery
